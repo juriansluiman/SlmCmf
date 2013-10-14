@@ -4,7 +4,7 @@ SlmCmf is a content management framework based on the php Zend Framework 2. It i
 
 Introduction
 ---
-SlmCmf is a Content Management System to provide easy hooks for a module to fit into a Zend Framework 2 based application. The CMF is a selection of various modules to handle page building, route parsing, navigation building and provides an admin interface to manage the modules. SlmCmf is called a CMF and not CMF (content management system) as it does not provide the usual content management system tools, but rather a low level handling of pages inside the application.
+SlmCmf is a Content Management System to provide easy hooks for a module to fit into a Zend Framework 2 based application. The CMF is a selection of various modules to handle page building, route parsing, navigation building and provides an admin interface to manage the modules. SlmCmf is called a CMF and not CMS (content management system) as it does not provide the usual content management system tools, but rather a low level handling of pages inside the application.
 
 The fundament of SlmCmf is a page model, where every page is filled with content from one module. Pages are hierarchical stored in a database and processed into a route stack by the kernel. Meta data from pages is processed into a navigation tree for menus, breadcrumbs and so on. Inside the `docs` directory of this repository several files explain more about the fundaments of SlmCmf.
 
